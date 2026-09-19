@@ -17,3 +17,11 @@ def test_triage_general_case():
         "Need clarification about the process for next week.",
     )
     assert result.label == "general"
+
+
+def test_triage_mfa_case():
+    result = triage_text(
+        "MFA prompt repeats",
+        "The verification code succeeds, but the prompt appears again.",
+    )
+    assert result.label == "access"

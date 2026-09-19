@@ -3,7 +3,7 @@
 ## Student information
 
 - Name: PAN, Wei
-- Student ID: To be added before the Canvas submission
+- Student ID: 21315290
 - Repository: https://github.com/powerpan/MAIE6000C-starter-eric
 - Checkpoint tag: `w03-readiness`
 - Commit SHA: Resolve from `w03-readiness^{commit}` after the tag is created
